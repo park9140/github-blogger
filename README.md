@@ -1,4 +1,3 @@
-github-blogger
-==============
+Github Blogger
+==================================
 
-Single page application for serving a github repo as a blog.

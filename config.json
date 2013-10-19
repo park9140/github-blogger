@@ -1,0 +1,20 @@
+{
+    "proxies": [
+        {
+            "route": "/graphite/",
+            "url": "http://hqgraphite01.hq.daptiv.com/"
+        },
+        {
+            "route": "/teamcity/",
+            "url": "http://teamcity.hq.daptiv.com/httpAuth/app/rest/"
+        },
+        {
+            "route": "/translate/",
+            "url": "http://translate.google.com/"
+        }
+    ],
+    "client": {
+        "failsound": "/audio/build-failed-losing-horn.mp4"
+    }
+
+}

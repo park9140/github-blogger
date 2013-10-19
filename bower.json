@@ -1,0 +1,44 @@
+{
+  "name": "github-blogger",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.0.0",
+    "angular": "~1.2.0-rc.3",
+    "requirejs": "~2.1.8",
+    "requirejs-text": "~2.0.9",
+    "underscore-amd": "~1.5.1",
+    "angular-resource": "~1.2.0-rc.3",
+    "angular-route": "~1.2.0-rc.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0-rc.3",
+    "chai": "~1.7.2",
+    "chai-jquery": "~1.1.1"
+  },
+  "packageFiles": {
+    "requirejs": [
+      {
+        "file": "require.js"
+      }
+    ],
+    "requirejs-text": [
+      {
+        "file": "text.js"
+      }
+    ],
+    "underscore-amd": [
+      {
+        "file": "underscore.js"
+      }
+    ]
+  }
+}
